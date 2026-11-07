@@ -87,8 +87,6 @@ namespace DebugShellTest
             }
 
             UDPackageNumberCounter++;
-            if (UDPackageNumberCounter == 255)
-                UDPackageNumberCounter = 0;
             if (UDPackageNumberCounter != input[3])
             {
                 //wrong package
